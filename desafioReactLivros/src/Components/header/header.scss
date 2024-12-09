@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.logoHeader{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 20%;
+    }
+
+    h1{
+        font-family: 30px;
+    }
+}
+
+.menuHeader{
+    width: 30%;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+}
+
+.barraBusca{
+    border: solid;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    input{
+        background-color: transparent;
+        border: none;
+        width: 60%;
+        height: 5vh;
+    }
+}
