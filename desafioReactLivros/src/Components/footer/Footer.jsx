@@ -3,7 +3,7 @@ import logoInsta from '../../assets/logoInstagram.png'
 import logoLinkedin from '../../assets/logoLinkedin.png'
 import logoYoutube from '../../assets/logoYoutube.png'
 import logoTwitter from '../../assets/logoTwitter.png'
-import s from '../footer/footer.scss'
+import s from './footer.scss'
 
 export default function Footer(){
     return(
