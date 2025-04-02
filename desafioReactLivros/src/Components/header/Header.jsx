@@ -1,5 +1,6 @@
 import{BrowserRouter, Routes,Route, Link} from 'react-router-dom'
 import QueroDoar from '../../Pages/QueroDoar/queroDoar'
+import LivrosDoados from '../../Pages/Doados/doados'
 import logoLivro from '../../assets/logoLivro.png'
 import lupa from '../../assets/lupa.png'
 import s from './header.scss'
