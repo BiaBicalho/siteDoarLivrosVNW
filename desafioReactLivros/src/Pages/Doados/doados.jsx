@@ -1,5 +1,5 @@
 import livro from '../../assets/form-livro.png'
-import S from './doados.scss'
+import S from './doados.module.scss'
 
 export default function Doados(){
     return(

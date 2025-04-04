@@ -4,7 +4,7 @@ import LivrosDoados from '../../Pages/Doados/doados'
 import QueroDoar from '../../Pages/QueroDoar/queroDoar'
 import logoLivro from '../../assets/logoLivro.png'
 import lupa from '../../assets/search.png'
-import s from './header.scss'
+import s from './header.module.scss'
 
 export default function header(){
     return(
@@ -22,14 +22,14 @@ export default function header(){
                 </ul>
             </nav>
             <section className={s.barraBusca}>
-                <input type="search" name="" id="" placeholder='O que está a procura?' />
+                <input className={s.busca} type="text" name="" id="" placeholder='O que está a procura?' />
                 <button><img src={lupa} alt="" /></button>
             </section>
         </header>
         <Routes>
             <Route path='/' element={<Inicio/>}/>
-            <Route path='/livrosdados' element={<LivrosDoados/>}/>
-            <Route path='/querodoar' element={<QueroDoar/>}/>
+            <Route path="/livrosdados" element={<LivrosDoados/>}/>
+            <Route path="/querodoar" element={<QueroDoar/>}/>
         </Routes>
         </BrowserRouter>
     )

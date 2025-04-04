@@ -1,4 +1,4 @@
-import S from './inicio.scss'
+import S from './inicio.module.scss'
 import rede from '../../assets/circuloMain.png'
 import lendo from '../../assets/segundaImagemMain.png'
 import inspirar from '../../assets/terceiraImagemMain.png'
@@ -12,7 +12,7 @@ export default function Inicio(){
             </section>
             <section className={S.devoDoar}>
                 <div>
-                <h2>Por que devo doar?</h2>
+                    <h2>Por que devo doar?</h2>
                 </div>
                 <section className={S.boxCard}>
                     <article>

@@ -1,22 +1,31 @@
+footer{
+    height: 10vh;
+    color: white;
+}
+
 .contatos{
     background-color:darkblue;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 15h;
-
+    height: 10vh;
     nav{
-        width: 12%;
+        width: 20vw;
+        height: 5vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        img{
+            height: 5vh;
+        }
     }
 }
 
 .copyright{
     background-color:darkslategrey;
-    height: 8vh;
+    height: 6vh;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
