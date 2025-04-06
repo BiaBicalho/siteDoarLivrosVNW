@@ -62,7 +62,7 @@ export default function QueroDoar(){
                     <input type="text" placeholder="Categoria" onChange={capturaCategoria} value={categoria}/>
                     <input type="text" placeholder="Autor" onChange={capturaAutor} value={autor}/>
                     <input type="text" placeholder="Link da Imagem" onChange={capturaImagem} value={imagem_url}/>
-                    <input type="submit" value="Doar" onClick={enviarDados} />
+                    <input className={S.doar} type="submit" value="Doar" onClick={enviarDados} />
                 </form>
             </section>
         </section>

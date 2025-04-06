@@ -28,7 +28,7 @@ export default function header(){
         </header>
         <Routes>
             <Route path='/' element={<Inicio/>}/>
-            <Route path="/livrosdados" element={<LivrosDoados/>}/>
+            <Route path="/livrosdoados" element={<LivrosDoados/>}/>
             <Route path="/querodoar" element={<QueroDoar/>}/>
         </Routes>
         </BrowserRouter>
